@@ -84,3 +84,63 @@ INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
 DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
 INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
 DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+DEBUG:BACONBOT:command
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+DEBUG:BACONBOT:command
+DEBUG:BACONBOT:command
+DEBUG:BACONBOT:command
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+DEBUG:BACONBOT:command
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+DEBUG:BACONBOT:command
+DEBUG:BACONBOT:command
+DEBUG:BACONBOT:command
+DEBUG:BACONBOT:command
+DEBUG:BACONBOT:command
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+DEBUG:BACONBOT:command
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+DEBUG:BACONBOT:<pyinotify.AsyncioNotifier object at 0x7f4a8c0b88d0>
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+DEBUG:BACONBOT:command
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+DEBUG:BACONBOT:<pyinotify.AsyncioNotifier object at 0x7f4a8c0a7630>
+DEBUG:BACONBOT:<pyinotify.AsyncioNotifier object at 0x7f4a8c0b88d0>
+DEBUG:BACONBOT:command

@@ -14,6 +14,7 @@ import traceback
 import sys
 
 logging.basicConfig(filename='bot.log',level=logging.DEBUG)
+logger = logging.getLogger("BACONBOT")
 
 inotifymask = pyinotify.IN_DELETE | pyinotify.IN_CREATE  # watched events TODO FIXME should be EDITED
 
@@ -23,32 +24,44 @@ import time
 #wdd = wm.add_watch('/tmp', inotifymask, rec=True)
 
 class Command(object):
-    def __init__(self, name, target, func, loop):
-        def callback(s):
-            sys.stdout.write(repr(s.proc_fun()))
-            sys.stdout.write('\n')
-            sys.stdout.write(str(s.proc_fun()))
-            sys.stdout.write('\n')
-            sys.stdout.flush()
-
+    def __init__(self, name, target, func, loop, callback):
+        logger.debug("command")
         wm = pyinotify.WatchManager()
         self.notifier = pyinotify.AsyncioNotifier(wm, loop, callback=callback)
         self.name = "".join(x for x in name if x.isalnum())
         self.target = target
         self.func = func
         try:
-            os.mkdir("/tmp/{}".format(name))
+            os.mkdir("/tmp/outputs/{}".format(name))
         except FileExistsError:
             pass
-        wm.add_watch("/tmp/{}/".format(name), inotifymask, rec=True)
+        wm.add_watch("/tmp/outputs/{}/".format(name), inotifymask, rec=True)
     def ONDELETE(self): # TODO FIXME XXX CALL THIS
         wm.rm_watch(arg[0], bool(int(arg[2])), quiet=True)
         assert name
-        os.system("rm -rf /tmp/{}".format(name))
+        os.system("rm -rf /tmp/outputs/{}".format(name))
+    def __str__(self):
+        return "Command({}, {}, {})".format(self.name, self.target, self.func)
 
 @irc3.plugin
 class SwitchControllerPlugin(object):
-    jobs = [ Command("raining", "#shelloutput", get_weather, asyncio.get_event_loop()) ]
+    @command
+    def debug(self, mask, target, args):
+        """ Debug
+
+        %%debug
+        """
+        pdb.set_trace()
+
+    @irc3.event(irc3.rfc.JOIN)
+    @asyncio.coroutine
+    def get_inotify(self, mask, channel):
+        def fun():
+          yield from asyncio.create_subprocess_shell(
+            "python3 inotify.py /tmp/outputs",
+            loop=self.bot.loop
+          )
+        yield from ("prefix{}".format(i) for i in fun())
 
     @command
     def calc(self, mask, target, args):
@@ -66,7 +79,12 @@ class SwitchControllerPlugin(object):
 
         %%add_command <name> <shell> <shell>...
         """
-        SwitchControllerPlugin.jobs += [Command(args["<name>"], target, " ".join(args["<shell>"]), self.bot.loop)]
+
+        def callback(s):
+            logger.debug(s)
+            self.bot.notice(target, repr(s.proc_fun()))
+            self.bot.notice(target, str(s.proc_fun()))
+        self.jobs += [Command(args["<name>"], target, " ".join(args["<shell>"]), self.bot.loop, callback)]
 
     @command
     def rm_command(self, mask, target, args):
@@ -74,7 +92,7 @@ class SwitchControllerPlugin(object):
 
         %%rm_command <name>
         """
-        SwitchControllerPlugin.jobs = list(filter(lambda x: x.name != args["<name>"], SwitchControllerPlugin.jobs))
+        self.jobs = list(filter(lambda x: x.name != args["<name>"], self.jobs))
 
     @command
     def list_commands(self, mask, target, args):
@@ -82,7 +100,7 @@ class SwitchControllerPlugin(object):
 
         %%list_commands
         """
-        for job in SwitchControllerPlugin.jobs:
+        for job in self.jobs:
              self.bot.notice(target, str(job))
 
     #@cron('0 */2 * * *')
@@ -101,15 +119,15 @@ class SwitchControllerPlugin(object):
 
     @asyncio.coroutine
     def do_run_jobs(self):
-        for j in SwitchControllerPlugin.jobs:
+        for j in self.jobs:
             i = j.func
             self.bot.notice(j.target, "now processing {}".format(j.name))
             stdout = None
             p = None
             try:
                 if type(i) == str:
-                    with open("/tmp/{}/output".format(j.name), "w") as f:
-                        p = subprocess.Popen(i, shell=True, stdout=f, cwd="/tmp/{}".format(j.name))
+                    with open("/tmp/outputs/{}/output".format(j.name), "w") as f:
+                        p = subprocess.Popen(i, shell=True, stdout=f, cwd="/tmp/outputs/{}".format(j.name))
                         p.wait(timeout=5)
                     user_stuff = "command {}, exit status {}".format(i, p.returncode)
                     stdout = p.stdout
@@ -141,6 +159,7 @@ class SwitchControllerPlugin(object):
         )
 
     def __init__(self, bot):
+        self.jobs = [ Command("raining", "#shelloutput", get_weather, asyncio.get_event_loop(), lambda s: bot.notice("#shelloutput", s.proc_fun())) ]
         self.bot = bot
         self.switches = self.bot.db.get('switches', None)
         if not self.switches:
