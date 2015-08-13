@@ -16,6 +16,9 @@ jobs = [ ("raining", "#shelloutput", get_weather) ]
 
 @irc3.plugin
 class SwitchControllerPlugin(object):
+    """
+    Plugin to control RF sockets.
+    """
     @command
     def calc(self, mask, target, args):
         """ Calc command
