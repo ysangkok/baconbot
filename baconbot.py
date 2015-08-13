@@ -4,14 +4,33 @@ import logging
 import asyncio
 import irc3
 from irc3.plugins.command import command
-
+import asyncore
+import pyinotify
 
 logging.basicConfig(filename='bot.log',level=logging.DEBUG)
+
+wm = pyinotify.WatchManager()  # Watch Manager
+mask = pyinotify.IN_DELETE | pyinotify.IN_CREATE  # watched events
+
+class EventHandler(pyinotify.ProcessEvent):
+    def process_IN_CREATE(self, event):
+        print("Creating:", event.pathname)
+
+    def process_IN_DELETE(self, event):
+        print("Removing:", event.pathname)
+
+notifier = pyinotify.AsyncNotifier(wm, EventHandler())
+
+#wdd = wm.add_watch('/tmp', mask, rec=True)
 
 @irc3.plugin
 class AlarmPlugin:
     def __init__(self, bot):
         self.bot = bot
+
+    def add_watch(self, path, mask, rec):
+        arg = args.get("ARG", None)
+
 
     @command
     def alarm(self, mask, target, args):
