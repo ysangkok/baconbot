@@ -27,6 +27,10 @@ class SwitchControllerPlugin(object):
 
     @command
     def run_jobs(self, mask, target, args):
+        """ Run available jobs
+
+        %%run_jobs
+        """
         for job in jobs:
             self.bot.notice(target, job)
             self.bot.notice(target, job[2]())
