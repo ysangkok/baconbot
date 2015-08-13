@@ -1,0 +1,86 @@
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 171548
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 171548
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 171548
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 171548
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 171548
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 171548
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 171548
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 171548
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 173760
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 173760
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 173760
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 173760
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 175463
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 175463
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 175463
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 175463
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 175463
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 175463
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 175463
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 175463
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 178028
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 178028
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 178028
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 178028
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 178028
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 178028
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 178028
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 178028
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 180267
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 180267
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 180267
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 183364
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+DEBUG:urllib3.connectionpool:"GET /?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif HTTP/1.1" 200 183364
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): www.wetteronline.de
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:"GET /vejr.gif HTTP/1.1" 200 184038
