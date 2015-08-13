@@ -14,10 +14,7 @@ def chunks(iterable,size):
         chunk = tuple(itertools.islice(it,size))
 
 def getimg():
-    #data = requests.get("http://www.wetteronline.de/?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif", stream=True)
-    data = requests.get("http://localhost:8080/vejr.gif", stream=True)
-    #sys.stdout.buffer.write(data.raw.data)
-    #sys.stdout.buffer.flush()
+    data = requests.get("http://www.wetteronline.de/?ireq=true&pid=p_radar_forecast&src=radar/vermarktung/p_radar_map_forecast/forecastLoop/DL/latestForecastLoop.gif", stream=True)
     return Image.open(BytesIO(data.raw.data))
 
 def get_pixels_in_all_frames(im):
